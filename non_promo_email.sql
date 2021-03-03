@@ -1,5 +1,6 @@
-email_performance="""
+"""
 SELECT 
+
 email_id,
 
 DATE_FORMAT(FROM_UNIXTIME(timestamp), '%Y-%m') as sent_month,
